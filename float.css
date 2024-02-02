@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.header, .footer {
+    background-color: grey;
+    color: white;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+    padding: 15px;
+}
+
+.table {
+    width: 25%;
+}
+
+.table ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.table ul>li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #33b5e5;
+    color: white;
+}
+
+.table ul>li:hover{
+    background-color: #0099cc;
+}
+
+.content {
+    width: 75%;
+}
