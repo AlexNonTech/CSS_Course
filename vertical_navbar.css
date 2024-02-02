@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    width: 200px;
+    margin: 10px;
+}
+
+.active {
+    background-color: green;
+    color: white;
+}
+
+ul>li {
+    border: 1px solid;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+ul>li>a {
+   display: block;
+   text-decoration: none;
+   color: black;
+   padding: 8px 16px; 
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
