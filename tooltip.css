@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltiptext {
+    display: inline-block;
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    width: 120px;
+    text-align: center;
+    padding: 5px 0;
+    margin-left: 0;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
